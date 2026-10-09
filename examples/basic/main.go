@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"log"
 
-	lru "github.com/example/lru-cache"
+	lru "github.com/michael-emmanuel/go-lru-cache"
 )
 
 func main() {
