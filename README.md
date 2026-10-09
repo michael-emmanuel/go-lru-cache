@@ -15,9 +15,6 @@ libraries and `sync.Map`. The goal is for the mechanism to be visible in the
 source: a `map[K]*node[K,V]` for lookup, a doubly linked list with sentinel
 head and tail nodes for recency order, and one `sync.Mutex` guarding both.
 
-The module path in `go.mod` is `github.com/example/lru-cache`. Replace it
-with your own path before publishing.
-
 ## Features
 
 - Generic API: `Cache[K comparable, V any]`, no `interface{}` and no reflection.
